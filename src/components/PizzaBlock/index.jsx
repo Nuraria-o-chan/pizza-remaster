@@ -1,5 +1,5 @@
 import React from "react";
-import PIZZA from "../assets/Img/pizza.jpg";
+import PIZZA from "../../assets/Img/pizza.jpg";
 
 const PizzaBlock = ({ title, price, sizes, types }) => {
   const [count, setCount] = React.useState(0);

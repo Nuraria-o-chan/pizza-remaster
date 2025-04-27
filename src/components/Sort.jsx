@@ -1,11 +1,10 @@
 import React from "react";
 
-const Sort = () => {
+const Sort = ({sort, setSort}) => {
   const [open, setOpen] = React.useState(false);
   const handleClickPopUp = () => {
     setOpen(!open);
   };
-  const [sort, setSort] = React.useState(0);
   const onClickSort = (index) => {
     setSort(index);
     setOpen(!open);
